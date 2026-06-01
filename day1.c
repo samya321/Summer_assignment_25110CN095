@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main()
-{
+{//wap to calculate sum of n numbers
     int i,n1,s=0;
     printf("enter the number whose sum is required\n");
     scanf("%d",&n1);
@@ -10,7 +10,7 @@ int main()
     printf("sum of %d natural numbers is %d",n1,s);
 
 
-
+//wap to print table of a number
     int j,n2,m=1;
     printf("enter the number whose multiplication table is required\n");
     scanf("%d",&n2);
@@ -20,7 +20,7 @@ int main()
     }
 
 
-
+//wap to find factorial of a number
     int k,n3,f=1;
     printf("enter the number whose factorial is required\n");
     scanf("%d",&n3);
@@ -30,7 +30,7 @@ int main()
     printf("factorial = %d",f);
 
 
-
+//wap to calculate digits in a number
 
     int n4,d;
     printf("enter the number\n");
