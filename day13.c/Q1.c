@@ -1,4 +1,4 @@
-//WAP to input and dispaly array
+//WAP to input and display array
 #include <stdio.h>
 int main (){
     int n,i,a[100];
