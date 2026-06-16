@@ -12,8 +12,6 @@ int main() {
     for(i=0;i<n;i++){
         if(a[i]>t){
             t=a[i];
-        } else {
-            t=a[0];
         }
     }
     printf("largest element is %d\n",t);
@@ -21,8 +19,6 @@ int main() {
     for(i=0;i<n;i++){
         if(a[i]<s){
             s=a[i];
-        } else {
-            s=a[0];
         }
     }
     printf("smallest element is %d",s);
